@@ -1,0 +1,68 @@
+#root {
+  min-height: 100vh;
+}
+
+#currentProducts tr {
+  text-align: center;
+}
+.btn-0 {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-color: unset;
+  font-weight: bold;
+}
+
+.step-circle {
+  height: 3rem;
+  width: 3rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+}
+.step-circle.completed {
+  background-color: #ace1af;
+}
+.avatar {
+  height: 5rem;
+  width: 5rem;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 1rem;
+}
+.avatar i {
+  font-size: 2rem;
+}
+
+#productDetails button:disabled {
+  cursor: not-allowed;
+  pointer-events: unset;
+}
+
+#flash,
+#alert-container {
+  position: fixed;
+  bottom: 0;
+  @media screen and (min-width: 992px) {
+    width: 50%;
+    left: 25%;
+  }
+
+  @media screen and (max-width: 992px) {
+    width: 95%;
+    left: 2.5%;
+  }
+}
+
+#coffeeCover {
+  max-height: 33vh;
+  width: 100%;
+}
+
+#documentPreview {
+  height: 20rem;
+  border: dashed 2px #ced4da;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "client side code for the coffee blockchain dapp tracking solution",
+  "scripts": {
+    "dev": "parcel ./public/index.html",
+    "build": "parcel build ./public/index.html",
+    "start": "node app.js"
+  },
+  "author": "Antoine LE GUILLOU",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-beta.2",
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "sass": "^1.36.0"
+  },
+  "dependencies": {
+    "@metamask/detect-provider": "^1.2.0",
+    "jquery": "^3.6.0",
+    "web3": "^1.4.0"
+  },
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+}

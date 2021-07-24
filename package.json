@@ -1,0 +1,34 @@
+{
+  "name": "coffee-supply-chain",
+  "version": "1.0.0",
+  "description": "An Ethereum DApp that demonstrates a Supply Chain flow between actors of a coffee supply chain",
+  "main": "index.js",
+  "scripts": {
+    "install": "(cd ./project-6 && npm i) & (cd ./project-6/client && npm i) & (cd ./project-6/server && npm i)",
+    "test": "cd ./project-6 && npm run test",
+    "migrate-dev": "cd ./project-6 && npm run migrate-dev",
+    "migrate-rinkeby": "cd ./project-6 && npm run migrate-rinkeby",
+    "app-dev": "(cd ./project-6/client && npm run dev) & (cd ./project-6/server && npm run dev)",
+    "build-app": "cd ./project-6/client && npm run build",
+    "start-app": "(cd ./project-6/client && npm run start) & (cd ./project-6/server && npm run start)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/udacity/nd1309-Project-6b-Example-Template.git"
+  },
+  "keywords": [
+    "Dapp",
+    "supplychain",
+    "coffee",
+    "ethereum",
+    "solidity",
+    "js",
+    "truffle"
+  ],
+  "author": "Antoine LE GUILLOU",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/udacity/nd1309-Project-6b-Example-Template/issues"
+  },
+  "homepage": "https://github.com/udacity/nd1309-Project-6b-Example-Template#readme"
+}

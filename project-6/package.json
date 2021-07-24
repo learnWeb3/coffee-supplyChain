@@ -1,0 +1,25 @@
+{
+  "name": "supply-chain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "truffle compile && truffle test",
+    "migrate-dev": "truffle compile && truffle migrate --network=development",
+    "migrate-rinkeby": "truffle compile && truffle migrate --network=rinkeby"
+  },
+  "keywords": [],
+  "author": "Antoine LE GUILLOU",
+  "license": "MIT",
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^1.0.35",
+    "bignumber.js": "^9.0.1",
+    "chai": "^4.3.4",
+    "chai-bignumber": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
