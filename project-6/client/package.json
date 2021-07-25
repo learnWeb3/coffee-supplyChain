@@ -10,10 +10,9 @@
   "author": "Antoine LE GUILLOU",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-beta.2",
-    "@parcel/transformer-sass": "^2.0.0-beta.2",
-    "parcel": "^2.0.0-beta.2",
-    "sass": "^1.36.0"
+    "@parcel/transformer-image": "^2.0.0-beta.2.1",
+    "@parcel/transformer-sass": "^2.0.0-beta.2.1",
+    "parcel": "next"
   },
   "dependencies": {
     "@metamask/detect-provider": "^1.2.0",
