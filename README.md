@@ -8,7 +8,6 @@ A different user interface has been made in order to differentiate the actions a
 
 We have choosen to implement an upload of a file accessible under the farmer account's role using IPFS decentralized file system storage referencing the hash in the smart contract, this file could be of different nature according to agriculture policies around the world but could serve the purpose of sharing quality and variety analysis of the item harvested for example to the other actors in the supplychain platform.
 
-[PRE PROJECT FILES](pre-project/)
 [UML SCHEMES](pre-project/UML)
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -50,9 +49,24 @@ echo -e "PINATA_API_KEY=<YOUR API KEY>\nPINATA_API_SECRET=<YOUR API SECRET>" >> 
 
 ## Quickstart (DEV ENVIRONNEMENT)
 
+### Install dependencies
+
 ```bash
-# install packages
-npm run install
+# install general dependencies
+cd project-6/
+npm i
+```
+
+```bash
+# install client dependencies
+cd project-6/client/
+npm i
+```
+
+```bash
+# install server dependencies
+cd project-6/server/
+npm i
 ```
 
 ### Lauch the smart contract test

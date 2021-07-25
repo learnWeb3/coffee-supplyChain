@@ -487,7 +487,7 @@ class Home extends Base {
     const formData = new FormData();
     const files = Array.from(document.querySelector("#document").files);
     if (files.length > 0) {
-      if (this.approveFileType(file[0])) {
+      if (this.approveFileType(files[0])) {
         formData.set("document", files[0]);
         const { IpfsHash } = await fetch("http://localhost:3000/upload", {
           method: "POST",
@@ -536,6 +536,7 @@ class Home extends Base {
           try {
             farmerDocumentID = await self.uploadDocumentToIPFS();
           } catch (error) {
+            console.log(error)
             loader.unmount();
             new Alert(
               "#alert-container",

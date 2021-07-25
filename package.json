@@ -4,7 +4,6 @@
   "description": "An Ethereum DApp that demonstrates a Supply Chain flow between actors of a coffee supply chain",
   "main": "index.js",
   "scripts": {
-    "install": "(cd ./project-6 && npm i) & (cd ./project-6/client && npm i) & (cd ./project-6/server && npm i)",
     "test": "cd ./project-6 && npm run test",
     "migrate-dev": "cd ./project-6 && npm run migrate-dev",
     "migrate-rinkeby": "cd ./project-6 && npm run migrate-rinkeby",
