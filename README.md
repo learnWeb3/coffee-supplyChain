@@ -8,6 +8,12 @@ A different user interface has been made in order to differentiate the actions a
 
 We have choosen to implement an upload of a file accessible under the farmer account's role using IPFS decentralized file system storage referencing the hash in the smart contract, this file could be of different nature according to agriculture policies around the world but could serve the purpose of sharing quality and variety analysis of the item harvested for example to the other actors in the supplychain platform.
 
+As an example we uploaded a NOP certificate for a coffee producer.
+Uploaded on IPFS this document can't be ammended without changing it's content identifier wich is direcly linked to the hash of the document itself.
+This document can thus serve as an immutable proof of the good faith of the producer.
+However nothing can guarantee that the producer is trustworthy and that the document he upload at first isn't a fake one.
+
+
 [UML SCHEMES](pre-project/UML)
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -118,6 +124,17 @@ npm run build-app
 npm run start-app
 ```
 
+## Troubleshoots
+
+```bash
+# command running parcel
+npm run app-dev
+npm run build-app
+npm run start-app
+```
+
+An issue arise when running parcel to build the app a the first time feel free to run the command again
+
 ## Dependencies
 
 ### environnement
@@ -127,6 +144,7 @@ npm run start-app
 - Solidity - 0.8.0 (solc-js)
 - Node v14.17.3
 - Web3.js v1.4.0
+- parcel ^v2.0.0
 
 ### smart contract
 
